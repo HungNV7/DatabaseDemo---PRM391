@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_loadFromRaw"
+        android:orderInCategory="100"
+        android:title="Load Data From RAW"
+        android:onClick="clickToLoadFromRaw"/>
+    <item
+        android:id="@+id/action_loadFromRawToInternal"
+        android:orderInCategory="100"
+        android:title="Save Data From RAW To Internal"
+        android:onClick="clickToLoadFromRawToInternal"/>
+    <item
+        android:id="@+id/action_loadFromInternal"
+        android:orderInCategory="100"
+        android:title="Load Data From Internal"
+        android:onClick="clickToLoadFromInternal"/>
+    <item
+        android:id="@+id/action_SaveToExternal"
+        android:orderInCategory="100"
+        android:title="Save Data To SDCard"
+        android:onClick="clickToSaveToExternal"/>
+    <item
+        android:id="@+id/action_loadFromExternal"
+        android:orderInCategory="100"
+        android:title="Load Data From SDCard"
+        android:onClick="clickToLoadFromExternal"/>
+    <item
+        android:id="@+id/action_BackupToExternal"
+        android:orderInCategory="100"
+        android:title="Backup Data To SDCard"
+        android:onClick="clickToBackupToExternal"/>
+    <item
+        android:id="@+id/action_RestoreFromExternal"
+        android:orderInCategory="100"
+        android:title="Restore Data From SDCard"
+        android:onClick="clickToRestoreFromExternal"/>
+</menu>
